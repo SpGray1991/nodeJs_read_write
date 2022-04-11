@@ -10,5 +10,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "directory-tree": "^3.2.2",
+    "dree": "^3.3.6"
+  }
 }
