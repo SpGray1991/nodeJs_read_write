@@ -72,3 +72,18 @@ const options = {
 const string = dree.parseTree(tree, options);
 
 console.log(string); */
+
+//            API
+
+/* const axios = require("axios");
+const fs = require("fs");
+
+const getCategories = () => {
+  return axios.get(`https://api.publicapis.org/categories`).then((response) => {
+    const obj = JSON.stringify(response.data);
+    console.log(obj);
+    fs.writeFileSync("obj.js", obj);
+  });
+};
+
+getCategories(); */
